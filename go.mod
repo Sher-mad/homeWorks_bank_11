@@ -1,3 +1,3 @@
-module github.com/Sher-mad/homeWorks_bank_11/v2
+module github.com/Sher-mad/homeWorks_bank_11
 
 go 1.16
