@@ -27,6 +27,16 @@ type Card struct {
 	Active   bool
 }
 
+// Status представляет собой статус платежа.
+type Status string
+
+// Status представляет статусы платежей.
+const (
+	StatusOk         Status = "OK"
+	StatusFail       Status = "FAIL"
+	StatusInProgress Status = "INPROGRESS"
+)
+
 // Category
 type Category string
 
